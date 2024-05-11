@@ -1,7 +1,7 @@
 [project]
-name = "nonebot_plugin_RanFurryPic"
-version = "1.1.2"
-description = "基于NoneBot2进行适配的兽云随机毛图插件"
+name = "nonebot_plugin_furryfusion"
+version = "0.1.0"
+description = ""
 authors = [
     {name = "Ekac", email = "2396382559@qq.com"},
 ]
