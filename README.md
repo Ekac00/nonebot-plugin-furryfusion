@@ -6,9 +6,9 @@
 
 <div align="center">
 
-# nonebot-plugin-RanFurryPic
+# nonebot-plugin-furryfusion
 
-_✨ 随机毛图 ✨_
+_✨ 兽聚动态 ✨_
 
 
 <a href="./LICENSE">
@@ -21,18 +21,17 @@ _✨ 随机毛图 ✨_
 
 </div>
 
-基于NoneBot2进行适配的兽云随机毛图插件
+基于NoneBot2进行适配的兽聚动态查询插件
 
 ## 📖 介绍
 
-兽云官方插件太复杂？功能太杂？看不懂？不兼容？损坏文件结构？
-本插件使用官方<a href="https://console-docs.apipost.cn/preview/6bf01cfebd3e5f96/c4e20a5d1a5db86c?target_id=83fb4f89-221c-4196-bb85-4abf73af73af">API</a>进行编写，无需令牌，无需Token，即可使用随机毛图功能<br><br>
+本插件使用<a href="https://api.furryfusion.net/service/activity">furryfusion.net API</a>进行编写<br><br>
 在开始前请先点一个免费的star吧谢谢啦~
 
 <details>
 <summary>买家秀</summary>
 
-<img src="https://img2.imgtp.com/2024/05/10/U4xrcU7e.png">
+<img src="https://img2.imgtp.com/2024/05/12/dQ97OBnd.png">
 
 </details>
 
@@ -42,7 +41,7 @@ _✨ 随机毛图 ✨_
 <summary>使用 nb-cli 安装（推荐）</summary>
 在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
 
-    nb plugin install nonebot-plugin-RanFurryPic
+    nb plugin install nonebot-plugin-furryfusion
 
 </details>
 
@@ -50,11 +49,11 @@ _✨ 随机毛图 ✨_
 <summary>使用PIP安装</summary>
 在 nonebot2 项目的插件目录下, 打开命令行, 输入安装命令
 
-    pip install nonebot-plugin-RanFurryPic
+    pip install nonebot-plugin-furryfusion
 
 打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
 
-    plugins = ["nonebot_plugin_RanFurryPic"]
+    plugins = ["nonebot_plugin_furryfusion"]
 
 
 </details>
@@ -67,14 +66,11 @@ _✨ 随机毛图 ✨_
 ### 指令表
 | 指令 | 权限 | 需要@ | 范围 | 说明 |
 |:-----:|:----:|:----:|:----:|:----:|
-| 来只毛 | 群员 | 否 | 群聊 | 随机毛图 |
-| furry | 群员 | 否 | 群聊 | 随机毛图 |
-| 毛毛 | 群员 | 否 | 群聊 | 随机毛图 |
+| 兽聚动态 | 群员 | 否 | 群聊 | 查询兽聚动态（时间可能会有延迟） |
 
 ## TODO LIST
 
 待解决问题:
 
- - [x] 使用httpx发送请求，避免线程堵塞(后期：艹这里让星火帮我改一次就过审核了讯飞nb！)
+ - [ ] 使用httpx发送请求，避免线程堵塞
  - [ ] 自定义消息发送结果（指在`.env`中修改
- - [ ] 添加搜毛功能
