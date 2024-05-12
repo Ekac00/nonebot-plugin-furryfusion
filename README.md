@@ -11,8 +11,6 @@
 _✨ 兽聚动态 ✨_
 
 
-<a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/owner/nonebot-plugin-furryfusion.svg" alt="license">
 </a>
 <a href="https://pypi.python.org/pypi/nonebot-plugin-furryfusion">
     <img src="https://img.shields.io/pypi/v/nonebot-plugin-furryfusion.svg" alt="pypi">
