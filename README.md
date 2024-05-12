@@ -10,7 +10,10 @@
 
 _✨ 兽聚动态 ✨_
 
-
+</a>
+<a href="https://github.com/Ekac00/nonebot-plugin-furryfusion/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Ekac00/nonebot-plugin-furryfusion.svg" alt="license">
+</a>
 </a>
 <a href="https://pypi.python.org/pypi/nonebot-plugin-furryfusion">
     <img src="https://img.shields.io/pypi/v/nonebot-plugin-furryfusion.svg" alt="pypi">
