@@ -3,7 +3,7 @@ from nonebot.plugin import on_command
 from nonebot.plugin import PluginMetadata
 
 __plugin_meta__ = PluginMetadata(
-    name="nonebot-plugin-furryfusion",
+    name="兽聚动态",
     description="基于NoneBot2进行适配的兽聚动态查询插件",
     usage="使用“兽聚动态”查询最新兽聚",
 
