@@ -23,7 +23,7 @@ _✨ 兽聚动态 ✨_
 
 ## 📖 介绍
 
-本插件使用<a href="https://api.furryfusion.net/service/activity">furryfusion.net API</a>接口进行编写<br><br>
+本插件使用<a href="https://console-docs.apipost.cn/preview/fcba96ab381efa80/fdb51b00b68a9bbf?target_id=3a8b741e-9648-4469-8f47-98484378fdcf">兽云API</a>进行编写<del>别问我为什么不集成到随机毛图里，问就是报错（</del><br><br>
 在开始前请先点一个免费的star吧谢谢啦~
 
 ### 由于在翻页做好前消息仍为整段发出，可能会被误识别为刷屏
