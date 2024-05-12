@@ -25,7 +25,7 @@ _✨ 兽聚动态 ✨_
 
 ## 📖 介绍
 
-本插件使用<a href="https://api.furryfusion.net/service/activity">furryfusion.net API</a>进行编写<br><br>
+本插件使用<a href="https://api.furryfusion.net/service/activity">furryfusion.net API</a>接口进行编写<br><br>
 在开始前请先点一个免费的star吧谢谢啦~
 
 <details>
