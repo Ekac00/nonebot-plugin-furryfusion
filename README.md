@@ -28,6 +28,9 @@ _✨ 兽聚动态 ✨_
 本插件使用<a href="https://api.furryfusion.net/service/activity">furryfusion.net API</a>接口进行编写<br><br>
 在开始前请先点一个免费的star吧谢谢啦~
 
+### 由于在翻页做好前消息仍为整段发出，可能会被误识别为刷屏
+### 由于长消息，go-cqhttp协议用户慎用，防风控！
+
 <details>
 <summary>买家秀</summary>
 
@@ -72,6 +75,6 @@ _✨ 兽聚动态 ✨_
 
 待解决问题:
 
- - [ ] 使用httpx发送请求，避免线程堵塞
- - [ ] 分段发送（指在`.env`中修改）
+ - [x] 使用httpx发送请求，避免线程堵塞
+ - [ ] 分段发送
  - [ ] <del>搜兽聚</del>
