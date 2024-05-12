@@ -1,6 +1,6 @@
 [project]
 name = "nonebot_plugin_furryfusion"
-version = "0.1.0"
+version = "0.1.1"
 description = "基于NoneBot2进行适配的兽聚动态查询插件"
 authors = [
     {name = "Ekac", email = "2396382559@qq.com"},
