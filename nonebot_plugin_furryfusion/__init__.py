@@ -1,5 +1,22 @@
 import httpx
 from nonebot.plugin import on_command
+from nonebot.plugin import PluginMetadata
+
+__plugin_meta__ = PluginMetadata(
+    name="nonebot-plugin-furryfusion",
+    description="基于NoneBot2进行适配的兽聚动态查询插件",
+    usage="使用“兽聚动态”查询最新兽聚",
+
+    type="application",
+    # 发布必填，当前有效类型有：`library`（为其他插件编写提供功能），`application`（向机器人用户提供功能）。
+
+    homepage="https://github.com/Ekac00/nonebot-plugin-furryfusion",
+    # 发布必填。
+
+    supported_adapters={"~onebot.v11"},
+    # 支持的适配器集合，其中 `~` 在此处代表前缀 `nonebot.adapters.`，其余适配器亦按此格式填写。
+    # 若插件可以保证兼容所有适配器（即仅使用基本适配器功能）可不填写，否则应该列出插件支持的适配器。
+)
 
 fusion_activity = on_command("兽聚动态", priority=10, block=True)
 
