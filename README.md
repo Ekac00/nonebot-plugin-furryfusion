@@ -31,7 +31,7 @@ _✨ 兽聚动态 ✨_
 
 ### 作者初中学业繁重，暂时停更
 ### 回来后会大规模更新本插件
-### 可以先看看这位老师的<a href="https://github.com/TheChenXI/nonebot-plugin-witff">重制版</a>
+### 可以先看看<a href="https://github.com/TheChenXI">这位老师</a>的<a href="https://github.com/TheChenXI/nonebot-plugin-witff">重制版</a>
 ### 由于在图片发送做好前 消息仍为整段发出，可能会被误识别为刷屏
 ### 长消息，go-cqhttp用户慎用，容易风控！
 
