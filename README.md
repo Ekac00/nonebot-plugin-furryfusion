@@ -27,13 +27,12 @@ _✨ 兽聚动态 ✨_
 ## 📖 介绍
 
 本插件使用<a href="https://console-docs.apipost.cn/preview/fcba96ab381efa80/fdb51b00b68a9bbf?target_id=3a8b741e-9648-4469-8f47-98484378fdcf">兽云API</a>进行编写<del>别问我为什么不集成到随机毛图里，问就是报错（</del><br><br>
-在开始前请先点一个免费的star吧谢谢啦~
+在开始前请先点一个star吧谢谢啦~<br>
+使用过程中遇到任何问题请直接发issues，或到<a href="https://qm.qq.com/q/2OmiBhiPEA">qq群</a>里找糕蛋~
 
 ### 作者初中学业繁重，暂时停更
 ### 回来后会大规模更新本插件
-### 可以先看看<a href="https://github.com/TheChenXI">这位老师</a>的<a href="https://github.com/TheChenXI/nonebot-plugin-witff">重制版</a>
-### 由于在图片发送做好前 消息仍为整段发出，可能会被误识别为刷屏
-### 长消息，go-cqhttp用户慎用，容易风控！
+### 可以先看看<a href="https://github.com/TheChenXI">这位老师</a>的<a href="https://github.com/TheChenXI/nonebot-plugin-witff">重制版~</a>
 
 <details>
 <summary>买家秀</summary>
@@ -67,7 +66,7 @@ _✨ 兽聚动态 ✨_
 
 ## ⚙️ 配置
 
-1.0版本暂无配置项，可即安即用。
+暂无配置项，即安即用。
 
 ## 🎉 使用
 ### 指令表
@@ -80,5 +79,5 @@ _✨ 兽聚动态 ✨_
 待解决问题:
 
  - [x] 使用httpx发送请求，避免线程堵塞
- - [ ] 图片发送
+ - [x] 图片发送
  - [ ] <del>搜兽聚</del>
